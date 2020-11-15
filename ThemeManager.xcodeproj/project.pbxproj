@@ -7,8 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB31FC8F255FC150001B1D74 /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB31FC8E255FC150001B1D74 /* UIColor+Extensions.swift */; };
+		AB31FC92255FC539001B1D74 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB31FC91255FC539001B1D74 /* Theme.swift */; };
+		AB31FC94255FC611001B1D74 /* Mode.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB31FC93255FC611001B1D74 /* Mode.swift */; };
+		AB31FC96255FCBD1001B1D74 /* UIImage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB31FC95255FCBD1001B1D74 /* UIImage+Extensions.swift */; };
+		AB31FC99255FF40C001B1D74 /* ThemeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB31FC98255FF40C001B1D74 /* ThemeManager.swift */; };
+		AB31FC9B25611EA2001B1D74 /* Themeable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB31FC9A25611EA2001B1D74 /* Themeable.swift */; };
+		AB31FC9D25611FCA001B1D74 /* UIWindow+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB31FC9C25611FCA001B1D74 /* UIWindow+Extensions.swift */; };
+		AB31FCA025612008001B1D74 /* BlueTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB31FC9F25612008001B1D74 /* BlueTheme.swift */; };
+		AB31FCA325612101001B1D74 /* BaseLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB31FCA225612101001B1D74 /* BaseLabel.swift */; };
+		AB31FCA525612B2C001B1D74 /* NextPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB31FCA425612B2C001B1D74 /* NextPageViewController.swift */; };
+		AB31FCA825612BD3001B1D74 /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB31FCA725612BD3001B1D74 /* UserDefaults.swift */; };
+		AB31FCAA25613120001B1D74 /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB31FCA925613120001B1D74 /* UIViewController+Extensions.swift */; };
+		AB31FCAC25613447001B1D74 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB31FCAB25613447001B1D74 /* BaseView.swift */; };
+		AB31FCAE25613450001B1D74 /* BaseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB31FCAD25613450001B1D74 /* BaseButton.swift */; };
+		AB31FCB0256134D5001B1D74 /* GeneralTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB31FCAF256134D5001B1D74 /* GeneralTheme.swift */; };
+		AB31FCB22561385C001B1D74 /* BaseImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB31FCB12561385C001B1D74 /* BaseImage.swift */; };
+		AB31FCB4256142AC001B1D74 /* Todo.txt in Resources */ = {isa = PBXBuildFile; fileRef = AB31FCB3256142AC001B1D74 /* Todo.txt */; };
 		AB7BCDE7255EFB610082972F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7BCDE6255EFB610082972F /* AppDelegate.swift */; };
-		AB7BCDE9255EFB610082972F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7BCDE8255EFB610082972F /* SceneDelegate.swift */; };
 		AB7BCDEB255EFB610082972F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7BCDEA255EFB610082972F /* ViewController.swift */; };
 		AB7BCDEE255EFB610082972F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB7BCDEC255EFB610082972F /* Main.storyboard */; };
 		AB7BCDF0255EFB630082972F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB7BCDEF255EFB630082972F /* Assets.xcassets */; };
@@ -27,9 +43,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AB31FC8E255FC150001B1D74 /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
+		AB31FC91255FC539001B1D74 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		AB31FC93255FC611001B1D74 /* Mode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mode.swift; sourceTree = "<group>"; };
+		AB31FC95255FCBD1001B1D74 /* UIImage+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extensions.swift"; sourceTree = "<group>"; };
+		AB31FC98255FF40C001B1D74 /* ThemeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeManager.swift; sourceTree = "<group>"; };
+		AB31FC9A25611EA2001B1D74 /* Themeable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Themeable.swift; sourceTree = "<group>"; };
+		AB31FC9C25611FCA001B1D74 /* UIWindow+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIWindow+Extensions.swift"; sourceTree = "<group>"; };
+		AB31FC9F25612008001B1D74 /* BlueTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueTheme.swift; sourceTree = "<group>"; };
+		AB31FCA225612101001B1D74 /* BaseLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseLabel.swift; sourceTree = "<group>"; };
+		AB31FCA425612B2C001B1D74 /* NextPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextPageViewController.swift; sourceTree = "<group>"; };
+		AB31FCA725612BD3001B1D74 /* UserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaults.swift; sourceTree = "<group>"; };
+		AB31FCA925613120001B1D74 /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
+		AB31FCAB25613447001B1D74 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		AB31FCAD25613450001B1D74 /* BaseButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseButton.swift; sourceTree = "<group>"; };
+		AB31FCAF256134D5001B1D74 /* GeneralTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralTheme.swift; sourceTree = "<group>"; };
+		AB31FCB12561385C001B1D74 /* BaseImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseImage.swift; sourceTree = "<group>"; };
+		AB31FCB3256142AC001B1D74 /* Todo.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Todo.txt; sourceTree = "<group>"; };
 		AB7BCDE3255EFB610082972F /* ThemeManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThemeManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB7BCDE6255EFB610082972F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AB7BCDE8255EFB610082972F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		AB7BCDEA255EFB610082972F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AB7BCDED255EFB610082972F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AB7BCDEF255EFB630082972F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -58,6 +90,57 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AB31FC8C255FC03F001B1D74 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				AB31FC9E25611FF4001B1D74 /* List Theme */,
+				AB31FC91255FC539001B1D74 /* Theme.swift */,
+				AB31FC93255FC611001B1D74 /* Mode.swift */,
+				AB31FC98255FF40C001B1D74 /* ThemeManager.swift */,
+				AB31FC9A25611EA2001B1D74 /* Themeable.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		AB31FC8D255FC047001B1D74 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				AB31FC8E255FC150001B1D74 /* UIColor+Extensions.swift */,
+				AB31FC95255FCBD1001B1D74 /* UIImage+Extensions.swift */,
+				AB31FC9C25611FCA001B1D74 /* UIWindow+Extensions.swift */,
+				AB31FCA925613120001B1D74 /* UIViewController+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		AB31FC9E25611FF4001B1D74 /* List Theme */ = {
+			isa = PBXGroup;
+			children = (
+				AB31FC9F25612008001B1D74 /* BlueTheme.swift */,
+				AB31FCAF256134D5001B1D74 /* GeneralTheme.swift */,
+			);
+			path = "List Theme";
+			sourceTree = "<group>";
+		};
+		AB31FCA1256120F8001B1D74 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				AB31FCA225612101001B1D74 /* BaseLabel.swift */,
+				AB31FCAB25613447001B1D74 /* BaseView.swift */,
+				AB31FCAD25613450001B1D74 /* BaseButton.swift */,
+				AB31FCB12561385C001B1D74 /* BaseImage.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		AB31FCA625612B88001B1D74 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				AB31FCA725612BD3001B1D74 /* UserDefaults.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
 		AB7BCDDA255EFB610082972F = {
 			isa = PBXGroup;
 			children = (
@@ -79,13 +162,18 @@
 		AB7BCDE5255EFB610082972F /* ThemeManager */ = {
 			isa = PBXGroup;
 			children = (
+				AB31FCA625612B88001B1D74 /* Helper */,
+				AB31FCA1256120F8001B1D74 /* UI */,
+				AB31FC8D255FC047001B1D74 /* Extensions */,
+				AB31FC8C255FC03F001B1D74 /* Theme */,
 				AB7BCDE6255EFB610082972F /* AppDelegate.swift */,
-				AB7BCDE8255EFB610082972F /* SceneDelegate.swift */,
+				AB31FCA425612B2C001B1D74 /* NextPageViewController.swift */,
 				AB7BCDEA255EFB610082972F /* ViewController.swift */,
 				AB7BCDEC255EFB610082972F /* Main.storyboard */,
 				AB7BCDEF255EFB630082972F /* Assets.xcassets */,
 				AB7BCDF1255EFB630082972F /* LaunchScreen.storyboard */,
 				AB7BCDF4255EFB630082972F /* Info.plist */,
+				AB31FCB3256142AC001B1D74 /* Todo.txt */,
 			);
 			path = ThemeManager;
 			sourceTree = "<group>";
@@ -180,6 +268,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB31FCB4256142AC001B1D74 /* Todo.txt in Resources */,
 				AB7BCDF3255EFB630082972F /* LaunchScreen.storyboard in Resources */,
 				AB7BCDF0255EFB630082972F /* Assets.xcassets in Resources */,
 				AB7BCDEE255EFB610082972F /* Main.storyboard in Resources */,
@@ -200,9 +289,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB31FC9D25611FCA001B1D74 /* UIWindow+Extensions.swift in Sources */,
 				AB7BCDEB255EFB610082972F /* ViewController.swift in Sources */,
+				AB31FCAE25613450001B1D74 /* BaseButton.swift in Sources */,
+				AB31FCA525612B2C001B1D74 /* NextPageViewController.swift in Sources */,
+				AB31FCB22561385C001B1D74 /* BaseImage.swift in Sources */,
+				AB31FCB0256134D5001B1D74 /* GeneralTheme.swift in Sources */,
+				AB31FC9B25611EA2001B1D74 /* Themeable.swift in Sources */,
+				AB31FCA825612BD3001B1D74 /* UserDefaults.swift in Sources */,
+				AB31FC94255FC611001B1D74 /* Mode.swift in Sources */,
+				AB31FC92255FC539001B1D74 /* Theme.swift in Sources */,
+				AB31FCA025612008001B1D74 /* BlueTheme.swift in Sources */,
+				AB31FC96255FCBD1001B1D74 /* UIImage+Extensions.swift in Sources */,
+				AB31FC8F255FC150001B1D74 /* UIColor+Extensions.swift in Sources */,
+				AB31FCAA25613120001B1D74 /* UIViewController+Extensions.swift in Sources */,
+				AB31FCA325612101001B1D74 /* BaseLabel.swift in Sources */,
+				AB31FCAC25613447001B1D74 /* BaseView.swift in Sources */,
 				AB7BCDE7255EFB610082972F /* AppDelegate.swift in Sources */,
-				AB7BCDE9255EFB610082972F /* SceneDelegate.swift in Sources */,
+				AB31FC99255FF40C001B1D74 /* ThemeManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

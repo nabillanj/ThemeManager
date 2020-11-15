@@ -1,0 +1,7 @@
+- Fixing UI layout
+- Add new page to see if other page will changed too or not
+- UINavigation Bar [color]
+- Image Icon [color]
+- UIBarButtonItem [color]
+- Custom color function
+- Button same base class but dont implement color chages on that view
